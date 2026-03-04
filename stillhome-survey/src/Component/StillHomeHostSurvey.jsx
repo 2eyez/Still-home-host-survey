@@ -102,7 +102,7 @@ Client Phone: ${form.phone || ""}
       }}
     >
       <h1 style={{ fontSize: "28px", fontWeight: "bold", marginBottom: "20px" }}>
-        Still Homes – Apartment Host Survey (Abuja & Lagos)
+        Still Home – Apartment Host Survey (Abuja & Lagos)
       </h1>
 
       <p style={{ marginBottom: "20px" }}>
