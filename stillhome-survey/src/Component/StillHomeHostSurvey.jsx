@@ -175,7 +175,7 @@ Client Phone: ${form.phone || ""}
       <div className="question">
         2. Where is your apartment located?
       </div>
-      {["Abuja", "Lagos", "Both"].map((city) => (
+      {["Abuja", "Lagos", "Other cities"].map((city) => (
         <label key={city}>
           <input
             type="checkbox"
