@@ -1,4 +1,4 @@
-import StillHomeHostSurvey from "./component/StillHomeHostSurvey";
+import StillHomeHostSurvey from "./Component/StillHomeHostSurvey";
 
 function App() {
   return <StillHomeHostSurvey />;
