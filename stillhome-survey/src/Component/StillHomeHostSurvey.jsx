@@ -106,7 +106,7 @@ Client Phone: ${form.phone || ""}
       </h1>
 
       <p style={{ marginBottom: "20px" }}>
-        Still Homes is a curated short-let and serviced apartment booking
+        Still Home is a curated short-let and serviced apartment booking
         platform focused on high-quality homes in Abuja and Lagos.
       </p>
 
@@ -175,7 +175,7 @@ Client Phone: ${form.phone || ""}
       <div className="question">
         2. Where is your apartment located?
       </div>
-      {["Abuja", "Lagos", "Other cities"].map((city) => (
+      {["Abuja", "Lagos","Both", "Other cities"].map((city) => (
         <label key={city}>
           <input
             type="checkbox"
@@ -221,7 +221,7 @@ Client Phone: ${form.phone || ""}
 
       {/* Q5 */}
       <div className="question">
-        5. Would you be interested in listing on Still Homes?
+        5. Would you be interested in listing on Still Home?
       </div>
       <label>
         <input
