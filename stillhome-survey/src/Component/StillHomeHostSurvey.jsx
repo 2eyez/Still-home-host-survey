@@ -85,7 +85,7 @@ Client Phone: ${form.phone || ""}
     )}`;
 
     alert(
-      `${form.businessName} you have successfully submitted. You will be added to our WhatsApp community for more updates on Still Homes`
+      `${form.businessName} Your data has been successfully collected and sent to your WhatsApp. Please click OK, then send the message via WhatsApp. You will be added to our WhatsApp community to receive updates`
     );
 
     setSubmitted(true);
@@ -331,7 +331,7 @@ Client Phone: ${form.phone || ""}
           borderRadius: "6px",
         }}
       >
-        {submitted ? "Submitted" : "Submit Survey"}
+        {submitted ? "Data collected" : "Proceed to Submit"}
       </button>
     </div>
   );
